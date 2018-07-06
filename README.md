@@ -28,7 +28,7 @@ N/A
 -  Georgios Kranas : Programer [(github)](https://github.com/PlebeianDev)
 -  Aris Karabelas Timotievits : Programer [(github)](https://github.com/Act862)
 - Daniil Trontsios : Programer [(github)](https://github.com/JokTronki)
-- Gesthimani Evagglidou : Programer [(github)](https://github.com/Gefsi)
+- Gesthimani Evaggelidou : Programer [(github)](https://github.com/Gefsi)
 - Sotirios Sapakos : Programer [(github)](https://github.com/SotirisSapakos)
 
 ## [](https://github.com/PyLamGR/password-generator/blob/master/README.md#license)License
