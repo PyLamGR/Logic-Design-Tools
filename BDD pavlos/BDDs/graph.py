@@ -117,15 +117,12 @@ def create_positioning(seq):
     temp = list()
     list_x.append([list_x[0] - (list_x[0]/2), list_x[0] + (list_x[0]/2)])
 
-    # PROBLEM: 2ND CHOICE ALWAYS GETS INCREASED maybe k needs to be dependant on other variables instead
-    k = 10
+    # middle nodes are placed onto each other
     for i in range(1, len(seq)):
         branch *= 2
         for j in range(branch):
-            temp.append(list_x[i][j] - (list_x[i][j]/2 + k))
-            temp.append(list_x[i][j] + (list_x[i][j]/2 - k))
-
-        k *= 2
+            temp.append(list_x[i][j] - 10)
+            temp.append(list_x[i][j] + 10)
 
         list_x.append(temp)
         temp = []
